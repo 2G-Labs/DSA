@@ -1,7 +1,7 @@
 # Algorithms
-This repository stores pseudocode for all the algorithms that we come across. This could be used to develop better algorithms and to optmize different algorithms to suit better in certain scenarios.
+This directory holds pseudocode for all the algorithms that we come across. This could be used to develop better algorithms and to optmize different algorithms to suit better in certain scenarios.
 
-## Heirarchy
+## Hierarchy
 This repository follows should follow strict hierarchy.
 
 Folders for different types of Algorithms
@@ -29,7 +29,5 @@ Folders for different types of Algorithms
 7. **Machine Learning Algorithms**
 8. **Encryption/Decryption Algorithms**
 
-The sub-folder (named after the algorithm) will contain the pseudocode ( .md) & implementation (in C++/Java or other languages)
+The sub-folders in this directory, named after the algorithm will contain the pseudocode in README.md file along with its general analysis. There could be optional implementation in C++/Java or in other languages, kept in tha same directory as the README.md file.
 
-## Contribution
-To contribute, fork the repository, make changes (following the Heirarchy and rules), commit it using appropriate commit message, create a pull request.
