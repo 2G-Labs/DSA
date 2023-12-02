@@ -6,12 +6,26 @@ This repository follows should follow strict hierarchy.
 
 Folders for different types of Algorithms
 1. Search Algorithms
-2. Sorting Algorithms
-3. Graph Algorithms
-4. Dynamic Programming Algorithms
-5. Greedy Algorithms
-6. Recursive Algorithms
-7. Machine Learning Algorithms
-8. Encryption/Decryption Algorithms
+  * Linear Search
+  * Binary Search
+  * Polynomial Search
+3. Sorting Algorithms
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+  * Quick Sort
+  * Merge Sort
+  * Heap Sort
+  * Shell Sort
+  * Radix Sort
+  * Bubble Sort
+4. Path Finding Algorithms
+  * Dijkstra's algorithm
+  * A<sup>*</sup> algorithm
+5. Dynamic Programming Algorithms
+6. Greedy Algorithms
+7. Recursive Algorithms
+8. Machine Learning Algorithms
+9. Encryption/Decryption Algorithms
 
 The sub-folder (named after the algorithm) will contain the pseudocode ( .md) & implementation (in C++/Java or other languages)
