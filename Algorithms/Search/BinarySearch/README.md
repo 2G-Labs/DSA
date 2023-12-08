@@ -2,7 +2,8 @@
 Binary search is a searching algoritm, which search for a key/data in a **sorted** array.  
 
 ## Pseudocode
-```BinarySearch(array, target)
+```
+BinarySearch(array, target)
   // Input: array is a sorted array, and target is the value to search for
 
   // Initialize variables
