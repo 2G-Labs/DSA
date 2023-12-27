@@ -1,46 +1,42 @@
 # Binary Search
-Binary search is a searching algoritm, which search for a key/data in a **sorted** array.  
+Binary search is a searching algoritm that works on the principle of divide and conquer.
+
+It works by dividing the **sorted array** into two halves, and searching only in that half, where the element would be.
 
 ## Pseudocode
-```
-BinarySearch(array, target)
-  // Input: array is a sorted array, and target is the value to search for
+```plaintext
+# Binary Search
 
-  // Initialize variables
-  Set low to 0
-  Set high to the length of array - 1
+function binarySearch(array, target):
+    # Initialize variables
+    low = 0
+    high = array.length() - 1
+    
+    while low <= high:
+        # Calculate middle index
+        mid = (low + high) / 2
 
-  // Binary search loop
-  While low <= high
-    // Calculate middle index
-    Set mid to (low + high) / 2
-
-    // Check if the middle element is the target
-    If array[mid] equals target
-      Return mid  // Target found
-
-    // If the target is less than the middle element, search in the left half
-    If target < array[mid]
-      Set high to mid - 1
-
-    // If the target is greater than the middle element, search in the right half
-    Else
-      Set low to mid + 1
-    End If
-  End While
-
-  // If the loop completes without finding the target, return a sentinel value (e.g., -1)
-  Return -1
-End BinarySearch
+        if array[mid] == target:
+            # target lies in the middle of the array.
+            return mid  # Target found
+        
+        if target < array[mid]:
+            # target lises in the left half of the divided array.
+            high = mid - 1
+        else:
+            # The target > array[mid]
+            # target lies in the right half of the divided array.
+            low = mid + 1
+    
+    return -1 # Indicating target was not found
 ```
 ## Time Complexity
 | Case    | Result   |
-|---------|----------:|
-| Best    | O(1)     |
-| Average | O(log n) |
+|---------|---------:|
+| Best    | Ω(1)     |
+| Average | Θ(log n) |
 | Worst   | O(log n) |
 
 ## Where to use
-You can use this algorithm, when the array is sorted.  
-It is helpful when you have large sorted array.  
-
+- When the array is sorted.  
+- When the data is huge.
