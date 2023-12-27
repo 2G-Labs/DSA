@@ -49,7 +49,7 @@ Use these standard notations for writing pseudocodes.
   while condition:
       # code block
 
-  for i from startValue to endValue:
+  for i = startValue to endValue:
       # code block
 
   for item in collection:
