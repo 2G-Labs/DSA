@@ -66,6 +66,7 @@ Use these standard notations for writing pseudocodes.
 - **Data Structure Operations:**
   - Arrays/Lists:
     - Access: `array[index]`
+    - Length: `array.length()`
     - Insertion: `array.append(element)`
     - Deletion: `array.remove(element)`
   - Linked Lists:
