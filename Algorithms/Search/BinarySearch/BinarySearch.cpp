@@ -4,7 +4,7 @@
  * @brief	Perfor a binary search for a key in a sorted array
  *
  * @param	array		A one-dimensional integer array to be searched. Must be sorted.
- * @param	arrayLength	Then number of elements in the array.
+ * @param	length		The number of elements in the array.
  * @param	target 		The integer value to search for in the array.
  *
  * @return	If the key is found, return the index of its occurence; otherwise return -1.
