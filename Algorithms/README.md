@@ -31,3 +31,20 @@ Folders for different types of Algorithms
 
 The sub-folders in this directory, named after the algorithm will contain the pseudocode in README.md file along with its general analysis. There could be optional implementation in C++/Java or in other languages, kept in tha same directory as the README.md file.
 
+
+## Sections in the Algorithms page
+- Introduction
+- Pseuodcode
+- Time Complexity
+- Where to use
+- Tips
+
+### Notations for the Time Complexity
+
+Use respective symbols for representing the time complexity.
+- `Ω` Big Omega for `Best Case`
+- `Θ` Big Theta for `Average Case`
+- `O` Big O for `Worst Case`
+
+> [!Note]
+> Use the specific order (best, avg, worst) for the time complexity.

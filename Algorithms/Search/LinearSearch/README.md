@@ -3,21 +3,25 @@ Searches the data in an list in a linear fashion.
 
 ## Pseudocode
 ```
-1. For every element from start to end of the list, do
-  a. If the element matches the searched value, then the value is found and it's position is returned
-  b. else continue with the loop
-2. Item is not found, and return the NOT_FOUND code accordingly (say -1).
+# Linear Search
+
+function linearSearch(array, target):
+    for i = 0 to n - 1:
+      if array[i] == target:
+            return i        # target was found at index `i`
+    return -1        # Indicating target not found.
 ```
 
 ## Time Complexity
 |Case        | Result|
 |------------|------:|
-|Worst       |   O(n)|
 |Best        |   Ω(1)|
 |Average     |   Θ(n)|
+|Worst       |   O(n)|
 
 ## Where to use
-- The linear search is used when the data is unsorted.
+- When the data is unsorted.
+- When the data is very less. (few hundreds)
 
 ## Tips
 - When you have to do multiple searches in a large array, then it is highly suggested to sort the array, and use algorithms for sorted array.
