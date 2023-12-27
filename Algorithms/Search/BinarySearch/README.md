@@ -28,16 +28,15 @@ function binarySearch(array, target):
             # target lies in the right half of the divided array.
             low = mid + 1
     
-    return -1 # Representing target was not found
+    return -1 # Indicating target was not found
 ```
 ## Time Complexity
 | Case    | Result   |
 |---------|---------:|
-| Best    | O(1)     |
-| Average | O(log n) |
+| Best    | Ω(1)     |
+| Average | Θ(log n) |
 | Worst   | O(log n) |
 
 ## Where to use
-You can use this algorithm, when
-- The array is sorted.  
-- The data is huge.
+- When the array is sorted.  
+- When the data is huge.
