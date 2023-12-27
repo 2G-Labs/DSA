@@ -1,41 +1,37 @@
 # Bubble Sort
-Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
-
-## Basic steps of the bubble sort algorithm:
-
-1. Start at the beginning of the list.
-2. Compare the first two elements.
-3. If the first element is greater than the second, swap them.
-4. Move to the next pair of elements and repeat steps 2-3.
-5. Continue this process until the end of the list is reached.
-6. After the first pass, the largest element is guaranteed to be at the end of the list.
-7. Repeat steps 1-6 for the remaining unsorted portion of the list.
-8. Continue this process until the entire list is sorted.
+Bubble sort is a simple and straightforward sorting algorithm that repeatedly steps through the list of elements to be sorted, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the entire list is sorted.
 
 ## Pseudocode
-### Slightly optmized variant (Comb Sort)
-```
-fun sort(arr){
-  FOR i = FROM 0 to arr.length - 1, do {
-    FOR j = FROM 0 to arr.length - 1 - i, do {
-      IF arr[j] > arr[j+1], then swap(arr[j], arr[j+1])
-    }
-  }
-}
+```plaintext
+# Bubble Sort
+
+function bubbleSort(array):
+    for i = 0 to array.length() - 1:
+        swapped = false    # Flag to keep track of the swapping
+        for j = 0 to array.length() - 1 - i:
+            if array[j] > array[j+1]:
+                # Swap with the next elements
+                temp = array[j]
+                array[j] = array[j+1]
+                array[j+1] = temp
+
+                # Set the flag
+                swapped = true
+        if NOT swapped:
+            return
+
 ```
 
-### Optmized variant (with a flag)
-```
-fun sort(arr){
-  FOR i = FROM 0 to arr.length - 1, do {
-    let swapped = false
-    FOR j = FROM 0 to arr.length - 1 - i, do {
-      IF arr[j] > arr[j+1], then {
-        swap(arr[j], arr[j+1])
-        swapped = true
-      }
-    IF not swapped then break
-    }
-  }
-}
-```
+## Time Complexity
+|Case        | Result          |
+|------------|----------------:|
+|Best        |   Ω(n)          |
+|Average     | Θ(n<sup>2</sup>)|
+|Worst       | O(n<sup>2</sup>)|
+
+## Where to use
+- When simplicity is needed.
+- When the array is very small.
+
+## Tips
+- Use `QuickSort` when the performance is concerned.
