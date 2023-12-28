@@ -35,15 +35,14 @@ int main() {
 	// Calling the function to sort the array
 	bubbleSort(array, arrayLength);
 	
-	// Printing the sorted array
-	
+	// Printing the sorted array, in formatted way
 	std::cout << "{ ";
+	
 	for(int i = 0; i < arrayLength; i++){
 		std::cout << array[i] << " ";
 	}
 	
 	std::cout << "}" << std::endl;
-	
 
 	return 0;
 }
