@@ -7,7 +7,7 @@
  * @param	b		The reference of second variable to be swapped
  *
  */
-template<typename T>
+template <typename T>
 void swap(T &a, T &b) {
 	T temp = a;
 	a = b;
