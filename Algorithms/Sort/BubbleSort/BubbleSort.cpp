@@ -6,8 +6,8 @@
  *
  * This function swaps the elements at positions `i` and `j` in the provided vector.
  *
- * @param	i	Index of the first element to be swapped.
- * @param	j	Index of the second element to be swapped.
+ * @param	i		Index of the first element to be swapped.
+ * @param	j		Index of the second element to be swapped.
  * @param	array	Reference to the vector containing elements.
  */
 void swap(int i, int j, std::vector<int>& array) {
