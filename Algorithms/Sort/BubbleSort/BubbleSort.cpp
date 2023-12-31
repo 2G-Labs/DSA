@@ -26,12 +26,12 @@ void swap(int i, int j, std::vector<int>& array) {
  */
 void bubbleSort(std::vector<int>& array) {
     // Iterate through each element of the array
-    for (int i = 0; i < array.size() - 1; ++i) {
+    for (int i = 0; i < array.size() - 1; i++) {
         // Flag to keep track of whether any swaps occurred in this pass
         bool swapped = false;
 
         // Compare and swap adjacent elements within the unsorted portion of the array
-        for (int j = 0; j < array.size() - 1 - i; ++j) {
+        for (int j = 0; j < array.size() - 1 - i; j++) {
             if (array[j] > array[j + 1]) {
                 // Swap elements if they are in the wrong order
                 swap(j, j + 1, array);
