@@ -24,7 +24,7 @@ int main() {
 	std::cout << "Before Swapping\n Value of a: " << a << " | Value of b: " << b << std::endl << std::endl;
 
 
-	// Swapping the values using swapNum (number specific swapping)
+	// Swapping the values using SwapNum algorithm (number specific swapping)
 	swapNum(a, b);
 
 	// Printing the values of variables again
