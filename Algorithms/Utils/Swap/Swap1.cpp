@@ -1,10 +1,10 @@
 #include <iostream>
 
 /**
- * @brief	Swaps the values of a & b. (Works with any data type, a & b be both of same type)
+ * @brief	Swaps the values of a & b. Works with any data type (both a & b should be of same type)
  *
- * @param	a		The reference of first variable to be swapped
- * @param	b		The reference of second variable to be swapped
+ * @param	a	The reference of first variable to be swapped
+ * @param	b	The reference of second variable to be swapped
  *
  */
 template <typename T>
