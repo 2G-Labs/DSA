@@ -1,5 +1,5 @@
 # Linear Search
-Searches the data in an list in a linear fashion.
+Searches the data in the list in a linear fashion (Checks all the elements one by one).
 
 ## Pseudocode
 ```
