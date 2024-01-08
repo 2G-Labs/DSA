@@ -2,20 +2,41 @@
 A repository to store different types of Data-Structure & Algorithms for educational and research purposes.
 
 This repository is divided into 2 parts:
-- [`DataStructure`](DataStructure): Contains the Data Structure
-- [`Algorithms`](Algorithms): Contains Alorithms.
+- [`/DataStructure`](DataStructure): Contains the Data Structure
+- [`/Algorithms`](Algorithms): Contains Alorithms.
 
 Each has its own hierarchy system. The hierarchy is _strict_, and must be followed.
 
 ## Hierarchy & Rules
 - Directory names should be in `PascalCase`.
 - There could be links to and from the Algorithms or DataStructure dir to link related things.
-- The heirarchy should follow
+
+## `/Algorithms`
+Stores algorithms in a categorized manner to house respective implementations, information, explanations, and supplementary information.
+
+The `/Algorithms` contains the following directory representing a category of the algorithms
+  - **`/Sort`**: Algorithms for sorting data.
+  - **`/Search`**: Algorithms for searching something from a list.
+  - **`/Utils`**: Algorithms useful for multiple purpose.
+
+These directory contains directories for specific algorithms.
+
+**Algorithm FileStructure**
+```plaintext
+AlgorithmName
+    │
+    ├── README.md    // Containing Pseudocode 
+    │
+    └── AlgorithmName.xxx  // (optional) Code implementation (.xxx is extention like java, cpp)
+```
+
+
+
+## `/DataStructures`
+Organizes data structures in a categorized manner to house respective implementations, information, and supplementary assets.
   
   |                     Location                                 |         Purpose                                                    |
   |--------------------------------------------------------------|--------------------------------------------------------------------|
-  |`/Algorithms/AlgorithmCategory/AlgorithmName/`                | Store all about the algorithm (code, information, assets)          |
-  |`/Algorithms/AlgorithmCategory/AlgorithmName/README.md`       | Information, pseudocode and explaination of the Algorithm          |
   |`/DataStructure/Category/SubCategory/../Name/`                | Store all about the data-structure (implementation, info, assets)  |
   |`/DataStructure/Category/SubCategory/../Name/README.md`       | Information, diagram, and explanation of the Data-Structure        |
 
