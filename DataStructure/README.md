@@ -44,6 +44,6 @@ The `README.md` of each data structure will typically contain:
 - Operations
 - Variants
 - Use Cases
-- Tips
+- Best Practices
 - References
 
