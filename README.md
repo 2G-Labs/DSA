@@ -57,34 +57,14 @@ DataStructureName/
 
 ## Contributions
 
-We welcome contributions from everyone! Here are some ways you can contribute to our project:
+We welcome contributions! Here's how you can contribute to our project:
 
-### Issues
+- **Report Issues:** Help by reporting bugs or suggesting enhancements. Check existing issues before creating a new one.
 
-- Report bugs or suggest enhancements by creating GitHub issues.
-- Ensure the issue hasn't already been reported by checking the existing ones.
+- **Pull Requests (PRs):** Submit focused PRs for review. Remember to follow the [_code style_](STANDARD.md).
 
-### Pull Requests (PRs)
-
-- Fork the repository, make changes, and submit Pull Requests for review.
-- Make sure your PRs are focused and address a single concern.
-- Adhere to the `code style` and `project conventions`.
-
-### Code Reviews
-
-- Review Pull Requests from others.
-- Provide constructive feedback and help improve code quality.
-
-### Documentation
-
-- Help improve the project's documentation.
-- Add or update README, guides, or other documentation files.
-
-### Spread the Word
-
-- Star the repository if you find it useful.
-- Share it on social media or with your networks to help others discover it.
+- **Code Reviews:** Review PRs from others. Offer constructive feedback to improve code quality.
 
 For more detailed guidelines, please refer to our [Contribution Guide](CONTRIBUTING.md).
 
-Thank you for considering contributing to our project! Every contribution is highly appreciated. 🎉
+Your contributions are highly appreciated! 🎉
