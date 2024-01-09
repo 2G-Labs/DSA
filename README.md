@@ -12,16 +12,18 @@ Each has its own hierarchy system. The hierarchy is _strict_, and must be follow
 - There could be links to and from the Algorithms or DataStructure dir to link related things.
 
 ## `/Algorithms`
-Stores algorithms in a categorized manner to house respective implementations, information, explanations, and supplementary information.
+The `/Algorithms` directory is organized to accommodate various algorithm implementations, information, explanations, and supplementary details.
 
-The `/Algorithms` contains the following directory representing a category of the algorithms
-  - **`/Sort`**: Algorithms for sorting data.
-  - **`/Search`**: Algorithms for searching something from a list.
-  - **`/Utils`**: Algorithms useful for multiple purpose.
+Within `/Algorithms`, the following subdirectories represent different categories of algorithms:
 
-These directory contains directories for specific algorithms.
+- **`/Sort`**: Contains algorithms for sorting data.
+- **`/Search`**: Includes algorithms for searching within a list.
+- **`/Utils`**: Houses algorithms that serve multiple purposes.
 
-**Algorithm FileStructure**
+Each category directory (`/Sort`, `/Search`, `/Utils`) further includes directories for specific algorithms.
+
+### Algorithm Directory Structure
+
 ```plaintext
 AlgorithmName
     │
