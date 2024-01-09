@@ -42,6 +42,7 @@ The `README.md` of algorithm will typically contain:
 - Pseudocode
 - Time Complexity
 - Space Complexity
+- Variants
 - Use Cases
 - Best Practices
 - References
