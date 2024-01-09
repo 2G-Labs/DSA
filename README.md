@@ -48,9 +48,9 @@ Each category directory (`/Linear`, `/NonLinear`, `/HashBased`, `/Specialized`) 
 ### DataStructure Directory Template
 
 ```plaintext
-DataStructureName
+DataStructureName/
     │
-    ├── README.md          // Containing description & diagram or the structure
+    ├── README.md             // Containing description & diagram or the structure
     │
     └── DataStrucureName.xxx  // (optional) Code implementation (.xxx is extention like java, cpp)
 ```
