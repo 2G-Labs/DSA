@@ -22,59 +22,39 @@ Within `/Algorithms`, the following subdirectories represent different categorie
 
 Each category directory (`/Sort`, `/Search`, `/Utils`) further includes directories for specific algorithms.
 
-### Algorithm Directory Structure
+### Algorithm Directory Template
 
 ```plaintext
-AlgorithmName
+AlgorithmName/
     │
-    ├── README.md    // Containing Pseudocode 
+    ├── README.md          // Containing Pseudocode 
     │
     └── AlgorithmName.xxx  // (optional) Code implementation (.xxx is extention like java, cpp)
 ```
 
+## `/DataStructure`
 
+The `/DataStructure` directory is structured to house various data structure implementations, information, explanations, and supporting materials.
 
-## `/DataStructures`
-Organizes data structures in a categorized manner to house respective implementations, information, and supplementary assets.
-  
-  |                     Location                                 |         Purpose                                                    |
-  |--------------------------------------------------------------|--------------------------------------------------------------------|
-  |`/DataStructure/Category/SubCategory/../Name/`                | Store all about the data-structure (implementation, info, assets)  |
-  |`/DataStructure/Category/SubCategory/../Name/README.md`       | Information, diagram, and explanation of the Data-Structure        |
+Within `/DataStructure`, different categories represent various types of data structures:
 
-- The data structure's heirarchy could be as follows
-    ```
-    DataStructure
+- **`/Linear`**: Contains implementations of linear data structures.
+- **`/NonLinear`**: Encompasses implementations of non-linear data structures.
+- **`/HashBased`**: Stores implementations of hash-based data structures.
+- **`/Specialized`**: Includes specialized data structures.
+
+Each category directory (`/Linear`, `/NonLinear`, `/HashBased`, `/Specialized`) further contains subdirectories for subcategories of data structures or specific data structures.
+
+### DataStructure Directory Template
+
+```plaintext
+DataStructureName
     │
-    ├── Linear Data Structures
-    │   ├── Arrays
-    │   ├── Linked Lists
-    │   ├── Stacks
-    │   └── Queues
+    ├── README.md          // Containing description & diagram or the structure
     │
-    ├── Non-Linear Data Structures
-    │   ├── Trees
-    │   │   ├── Binary Trees
-    │   │   ├── Binary Search Trees (BST)
-    │   │   ├── AVL Trees
-    │   │   └── Red-Black Trees
-    │   │
-    │   └── Graphs
-    │       ├── Directed Graphs (Digraphs)
-    │       └── Weighted Graphs
-    │
-    ├── Hash-Based Data Structures
-    │   ├── Hash Tables
-    │   ├── Hash Maps
-    │   └── Hash Sets
-    │
-    └── Specialized Data Structures
-    ├── Heaps
-    ├── Trie
-    ├── Bloom Filter
-    └── Skip Lists
-    
-    ```
+    └── DataStrucureName.xxx  // (optional) Code implementation (.xxx is extention like java, cpp)
+```
+
 ## Contributions
 
 We welcome contributions from everyone! Here are some ways you can contribute to our project:
