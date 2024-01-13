@@ -20,18 +20,24 @@ function selectionSort(array):
         array[i] = temp
 ```
 
-## Time Complexity
-|Case        | Result          |
-|------------|----------------:|
-|Best        | Ω(n<sup>2</sup>)|
-|Average     | Θ(n<sup>2</sup>)|
-|Worst       | O(n<sup>2</sup>)|
+## Time & Space Complexity
+|Case        | Time          | Space |
+|------------|----------------:|-----
+|Best        | Ω(n<sup>2</sup>)| Ω(1)|
+|Average     | Θ(n<sup>2</sup>)| Θ(1)|
+|Worst       | O(n<sup>2</sup>)| O(1)|
 
-## Where to use
-- When simplicity is prioritized over performance.
-- When the array is small.
+## Variants
+- Double-Selection Sort
+- Stable Selection Sort
+- Recursive Selection Sort
+- Block-Swap Selection Sort
 
-## Tips
-- Selection sort has a fixed number of swaps, making it useful when the write operation is costly.
-- For larger datasets, consider using more efficient algorithms such as `MergeSort` or `QuickSort`.
+## Use Cases
+- Suitable for sorting small datasets due to its simplicity.
+- Applicable in situations with constrained memory where constant space complexity is advantageous.
+- Considered when the cost of swapping elements is significantly higher than the cost of comparisons.
 
+## Best Practices
+- Inefficient for large datasets; prefer more efficient algorithms like `Merge Sort` or `QuickSort`.
+- Explore variants or optimizations, such as stable selection sort, based on specific requirements.
