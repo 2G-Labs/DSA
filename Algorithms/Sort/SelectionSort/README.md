@@ -2,7 +2,7 @@
 Selection sort is a straightforward sorting algorithm that sorts an array by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning. The process is iteratively applied to the remaining unsorted elements until the entire array is sorted.
 
 ## Pseudocode
-```
+```plaintext
 function selectionSort(array):
     n = array.length()
     for i = 0 to n - 1:
