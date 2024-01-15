@@ -2,86 +2,69 @@
 A repository to store different types of Data-Structure & Algorithms for educational and research purposes.
 
 This repository is divided into 2 parts:
-- [`DataStructure`](DataStructure): Contains the Data Structure
-- [`Algorithms`](Algorithms): Contains Alorithms.
+- [`/DataStructure`](DataStructure): Contains the Data Structure
+- [`/Algorithms`](Algorithms): Contains Alorithms.
 
 Each has its own hierarchy system. The hierarchy is _strict_, and must be followed.
 
 ## Hierarchy & Rules
 - Directory names should be in `PascalCase`.
 - There could be links to and from the Algorithms or DataStructure dir to link related things.
-- The heirarchy should follow
-  
-  |                     Location                                 |         Purpose                                                    |
-  |--------------------------------------------------------------|--------------------------------------------------------------------|
-  |`/Algorithms/AlgorithmCategory/AlgorithmName/`                | Store all about the algorithm (code, information, assets)          |
-  |`/Algorithms/AlgorithmCategory/AlgorithmName/README.md`       | Information, pseudocode and explaination of the Algorithm          |
-  |`/DataStructure/Category/SubCategory/../Name/`                | Store all about the data-structure (implementation, info, assets)  |
-  |`/DataStructure/Category/SubCategory/../Name/README.md`       | Information, diagram, and explanation of the Data-Structure        |
 
-- The data structure's heirarchy could be as follows
-    ```
-    DataStructure
+## `/Algorithms`
+The `/Algorithms` directory is organized to accommodate various algorithm implementations, information, explanations, and supplementary details.
+
+Within `/Algorithms`, the following subdirectories represent different categories of algorithms:
+
+- **`/Sort`**: Contains algorithms for sorting data.
+- **`/Search`**: Includes algorithms for searching within a list.
+- **`/Utils`**: Houses algorithms that serve multiple purposes.
+
+Each category directory (`/Sort`, `/Search`, `/Utils`) further includes directories for specific algorithms.
+
+### Algorithm Directory Template
+
+```plaintext
+AlgorithmName/
     │
-    ├── Linear Data Structures
-    │   ├── Arrays
-    │   ├── Linked Lists
-    │   ├── Stacks
-    │   └── Queues
+    ├── README.md          // Containing Pseudocode 
     │
-    ├── Non-Linear Data Structures
-    │   ├── Trees
-    │   │   ├── Binary Trees
-    │   │   ├── Binary Search Trees (BST)
-    │   │   ├── AVL Trees
-    │   │   └── Red-Black Trees
-    │   │
-    │   └── Graphs
-    │       ├── Directed Graphs (Digraphs)
-    │       └── Weighted Graphs
+    └── AlgorithmName.xxx  // (optional) Code implementation (.xxx is extention like java, cpp)
+```
+
+## `/DataStructure`
+
+The `/DataStructure` directory is structured to house various data structure implementations, information, explanations, and supporting materials.
+
+Within `/DataStructure`, different categories represent various types of data structures:
+
+- **`/Linear`**: Contains implementations of linear data structures.
+- **`/NonLinear`**: Encompasses implementations of non-linear data structures.
+- **`/HashBased`**: Stores implementations of hash-based data structures.
+- **`/Specialized`**: Includes specialized data structures.
+
+Each category directory (`/Linear`, `/NonLinear`, `/HashBased`, `/Specialized`) further contains subdirectories for subcategories of data structures or specific data structures.
+
+### DataStructure Directory Template
+
+```plaintext
+DataStructureName/
     │
-    ├── Hash-Based Data Structures
-    │   ├── Hash Tables
-    │   ├── Hash Maps
-    │   └── Hash Sets
+    ├── README.md             // Containing description & diagram or the structure
     │
-    └── Specialized Data Structures
-    ├── Heaps
-    ├── Trie
-    ├── Bloom Filter
-    └── Skip Lists
-    
-    ```
+    └── DataStrucureName.xxx  // (optional) Code implementation (.xxx is extention like java, cpp)
+```
+
 ## Contributions
 
-We welcome contributions from everyone! Here are some ways you can contribute to our project:
+We welcome contributions! Here's how you can contribute to our project:
 
-### Issues
+- **Report Issues:** Help by reporting bugs or suggesting enhancements. Check existing issues before creating a new one.
 
-- Report bugs or suggest enhancements by creating GitHub issues.
-- Ensure the issue hasn't already been reported by checking the existing ones.
+- **Pull Requests (PRs):** Submit focused PRs for review. Remember to follow the [_code style_](STANDARD.md).
 
-### Pull Requests (PRs)
-
-- Fork the repository, make changes, and submit Pull Requests for review.
-- Make sure your PRs are focused and address a single concern.
-- Adhere to the `code style` and `project conventions`.
-
-### Code Reviews
-
-- Review Pull Requests from others.
-- Provide constructive feedback and help improve code quality.
-
-### Documentation
-
-- Help improve the project's documentation.
-- Add or update README, guides, or other documentation files.
-
-### Spread the Word
-
-- Star the repository if you find it useful.
-- Share it on social media or with your networks to help others discover it.
+- **Code Reviews:** Review PRs from others. Offer constructive feedback to improve code quality.
 
 For more detailed guidelines, please refer to our [Contribution Guide](CONTRIBUTING.md).
 
-Thank you for considering contributing to our project! Every contribution is highly appreciated. 🎉
+Your contributions are highly appreciated! 🎉
