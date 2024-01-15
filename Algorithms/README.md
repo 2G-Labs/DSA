@@ -47,13 +47,13 @@ The `README.md` of algorithm will typically contain:
 - Best Practices
 - References
 
-### Notations for Time Complexity
+### Notations for `Time` & `Space` Complexity
 
-Respective symbols represent the time complexity:
-
-- `Ω` Big Omega for `Best Case`
-- `Θ` Big Theta for `Average Case`
-- `O` Big O for `Worst Case`
+| Symbol | Name       | Case         |
+|--------|------------|--------------|
+| Ω      | Big Omega  | Best Case    |
+| Θ      | Big Theta  | Average Case |
+| O      | Big O      | Worst Case   |
 
 > [!Note]
 > Ensure the time complexity order follows: best, average, worst.
