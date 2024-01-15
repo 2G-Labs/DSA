@@ -35,6 +35,6 @@ function insertionSort(array):
 - Simplicity and low overhead make it suitable for educational purposes.
 
 ## Best Practices
-- Inefficient for large datasets; opt for more efficient algorithms like `QuickSort` or `MergeSort`.
+- Inefficient for large datasets, opt for more efficient algorithms like `QuickSort` or `MergeSort`.
 - Consider using variants like Binary Insertion Sort for slightly better performance.
 - Well-suited for scenarios where elements are added to the array sequentially over time.

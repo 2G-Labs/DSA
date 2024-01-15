@@ -39,5 +39,5 @@ function selectionSort(array):
 - Considered when the cost of swapping elements is significantly higher than the cost of comparisons.
 
 ## Best Practices
-- Inefficient for large datasets; prefer more efficient algorithms like `Merge Sort` or `QuickSort`.
+- Inefficient for large datasets, opt prefer more efficient algorithms like `Merge Sort` or `QuickSort`.
 - Explore variants or optimizations, such as stable selection sort, based on specific requirements.
