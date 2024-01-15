@@ -21,11 +21,11 @@ function selectionSort(array):
 ```
 
 ## Time & Space Complexity
-|Case        | Time          | Space |
-|------------|----------------:|-----
-|Best        | Ω(n<sup>2</sup>)| Ω(1)|
-|Average     | Θ(n<sup>2</sup>)| Θ(1)|
-|Worst       | O(n<sup>2</sup>)| O(1)|
+|Case        |Time             |Space |
+|------------|----------------:|-----:|
+|Best        |Ω(n<sup>2</sup>) |Ω(1)  |
+|Average     |Θ(n<sup>2</sup>) |Θ(1)  |
+|Worst       |O(n<sup>2</sup>) |O(1)  |
 
 ## Variants
 - Double-Selection Sort
@@ -39,5 +39,5 @@ function selectionSort(array):
 - Considered when the cost of swapping elements is significantly higher than the cost of comparisons.
 
 ## Best Practices
-- Inefficient for large datasets, opt prefer more efficient algorithms like `Merge Sort` or `QuickSort`.
+- Inefficient for large datasets, opt more efficient algorithms like `Merge Sort` or `QuickSort`.
 - Explore variants or optimizations, such as stable selection sort, based on specific requirements.

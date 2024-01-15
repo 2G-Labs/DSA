@@ -5,7 +5,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 ```plaintext
 function insertionSort(array):
 	n = array.length()
-    for i = 1 to n - 1:
+	for i = 1 to n - 1:
 		key = array[i]
     	j = i - 1
 
