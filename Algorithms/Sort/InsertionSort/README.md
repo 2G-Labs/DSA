@@ -4,12 +4,12 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 ## Pseudocode
 ```plaintext
 function insertionSort(array):
-	n = array.length()
-	for i = 1 to n - 1:
-		key = array[i]
-    	j = i - 1
+    n = array.length()
+    for i = 1 to n - 1:
+        key = array[i]
+        j = i - 1
 
-    	# Move elements greater than key to one position ahead
+        # Move elements greater than key to one position ahead
     	while j >= 0 and array[j] > key:
         	array[j + 1] = array[j]
         	j = j - 1
@@ -19,11 +19,11 @@ function insertionSort(array):
 ```
 
 ## Time & Space Complexity
-|Case        | Time          | Space |
-|------------|----------------:|-----|
-|Best        | Ω(n)| Ω(1)|
-|Average     | Θ(n<sup>2</sup>)| Θ(1)|
-|Worst       | O(n<sup>2</sup>)| O(1)|
+|Case    |Time            |Space |
+|--------|---------------:|-----:|
+|Best    |Ω(n)            |Ω(1)  |
+|Average |Θ(n<sup>2</sup>)|Θ(1)  |
+|Worst   |O(n<sup>2</sup>)|O(1)  |
 
 ## Variants
 - Binary Insertion Sort

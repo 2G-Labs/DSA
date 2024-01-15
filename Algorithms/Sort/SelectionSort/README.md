@@ -21,11 +21,11 @@ function selectionSort(array):
 ```
 
 ## Time & Space Complexity
-|Case        |Time             |Space |
-|------------|----------------:|-----:|
-|Best        |Ω(n<sup>2</sup>) |Ω(1)  |
-|Average     |Θ(n<sup>2</sup>) |Θ(1)  |
-|Worst       |O(n<sup>2</sup>) |O(1)  |
+|Case    |Time            |Space |
+|--------|---------------:|-----:|
+|Best    |Ω(n<sup>2</sup>)|Ω(1)  |
+|Average |Θ(n<sup>2</sup>)|Θ(1)  |
+|Worst   |O(n<sup>2</sup>)|O(1)  |
 
 ## Variants
 - Double-Selection Sort
