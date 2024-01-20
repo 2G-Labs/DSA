@@ -48,12 +48,14 @@ Use these standard notations for writing pseudocodes.
   ```plaintext
   while condition:
       # code block
-
+  
+  for i = startValue to endValue step stepValue:
+      # code block
+  
+  # For stepValue = 1
   for i = startValue to endValue:
       # code block
   
-  for i = startValue to endValue step 2:
-      # code block
   for item in collection:
       # code block
   ```
