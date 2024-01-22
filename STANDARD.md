@@ -48,10 +48,14 @@ Use these standard notations for writing pseudocodes.
   ```plaintext
   while condition:
       # code block
-
+  
+  for i = startValue to endValue step stepValue:
+      # code block
+  
+  # For stepValue = 1
   for i = startValue to endValue:
       # code block
-
+  
   for item in collection:
       # code block
   ```
@@ -98,8 +102,6 @@ function binarySearch(array, target):
 ## Example Template:
 
 ```plaintext
-# Algorithm Name: Brief Description
-
 # Initialize variables
 variable_1 = value
 variable_2 = value
