@@ -23,7 +23,7 @@ void swap(int i, int j, std::vector<int>& array) {
  * @param	array	Reference to the vector containing elements.
  * @param	low		Lowest index of the array.
  * @param	high	Highest index of the array.
- * @return	int 
+ * @return	int		The pivot around which the elements are partitioned.
  */
 int partition(std::vector<int>& array, int low, int high) {
 	// Choose the rightmost element as the pivot
