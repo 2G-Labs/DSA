@@ -10,10 +10,8 @@
  * @param	array	Reference to the vector to be sorted.
  */
 void insertionSort(std::vector<int>& array) {
-	// This is the length of given array
 	int arrayLength = array.size();
 
-	// Iterating through each element of the array from index 1 to lastIndex(arrayLength -1)
 	for(int i = 1; i < arrayLength; i++){
 		int key = array[i];
 		int j = i - 1;
@@ -29,22 +27,18 @@ void insertionSort(std::vector<int>& array) {
 }
 
 int main() {
-	// Example usage
-	std::vector<int> myArray = {4, 1, 5, 8, 8, 10, 21, 0, -3, 2, 1, 3};
+	std::vector<int> exampleArray = {4, 1, 5, 8, 8, 10, 21, 0, -3, 2, 1, 3};
 
-	// Print the original array
 	std::cout << "Original array: ";
-	for (int elem : myArray) {
+	for (int elem : exampleArray) {
 		std::cout << elem << " ";
 	}
 	std::cout << std::endl;
 
-	// Sort the array using Insertion Sort
-	insertionSort(myArray);
+	insertionSort(exampleArray);
 
-	// Print the sorted array
 	std::cout << "Sorted array: ";
-	for (int elem : myArray) {
+	for (int elem : exampleArray) {
 		std::cout << elem << " ";
 	}
 	std::cout << std::endl;
