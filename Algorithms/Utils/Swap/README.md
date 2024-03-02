@@ -31,3 +31,11 @@ The swap algorithm takes 2 variables, and swap the values of them so that finall
 ## Tips
 - Use `SwapNum` for keeping memory footprint to minimum.
 
+## Swap number using Bitwise XOR Operator
+
+function swapByXOR(a,b):
+    a = a ^ b          # set bits, either set in a or b, store it in a 
+    b = a ^ b          # set bits which were set in original a, store it in b 
+    a = a ^ b          # set bits which were set in original b, store it in a 
+
+
